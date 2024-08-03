@@ -19,7 +19,9 @@ from sklearn.metrics import precision_recall_curve, auc
 from torch.utils.data import TensorDataset, DataLoader, WeightedRandomSampler
 import time
 from tqdm import tqdm
-
+import os
+if not os.path.exists('./weights'):
+    os.makedirs('./weights')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 df = pd.read_csv('./data/20240801.csv')
