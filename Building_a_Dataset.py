@@ -29,4 +29,4 @@ for i in tqdm(range(length), desc="Processing items"):
     all_data = all_data.append(data_df)
 
 # 将数据导出为csv文件
-all_data.to_csv(os.path.join(f'./data/{day}.csv'), encoding='utf_8_sig')
+all_data.to_csv(os.path.join(f'./data/{end_date}.csv'), encoding='utf_8_sig')
