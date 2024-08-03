@@ -9,11 +9,13 @@
 - torch
 - tqdm
 - akshare
-# 安装依赖,大部分依赖库可以通过以下命令安装：
+# 安装依赖
+大部分依赖库可以通过以下命令安装：
   ```bash
   pip install scikit-learn numpy pandas matplotlib tqdm akshare
   ```
-# PyTorch 安装:PyTorch 的安装需要根据你的硬件配置（如是否使用 GPU）来选择合适的版本。请访问 PyTorch 官方网站 获取正确的安装命令。
+# PyTorch 安装
+PyTorch 的安装需要根据你的硬件配置（如是否使用 GPU）来选择合适的版本。请访问 PyTorch 官方网站 获取正确的安装命令。
 
 # 使用步骤
 - 第一步：数据集构建
