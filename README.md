@@ -42,3 +42,7 @@ PyTorch 的安装需要根据你的硬件配置（如是否使用 GPU）来选�
   ```bash
   python 5_fold_CV.py
   ```
+- 完成5折训练之后，运行
+  ```bash
+  python APP.py
+  ```
